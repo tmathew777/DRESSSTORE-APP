@@ -25,7 +25,7 @@ app.use((err, req, res, next) => {
 
 // route
 app.get('/', (req, res) => {
-    res.send('Welcome to DressStore application');
+    res.send('MESSAGE : Welcome to DressStore application');
 });
 
 app.use('/api', productRoutes);
